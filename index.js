@@ -40,4 +40,4 @@ Client.on("guildMemberRemove", member =>{
     Client.channels.cache.get("923569497695207438").send(member.displayName + " a quitté le serveur.");
 });
 
-Client.login("OTIwOTg3NzY3MzY0NzkyMzMw.YbsWsg.-kCvs_1GWk8vw5yP1f2GS-qRHCg");
+Client.login(process.env.TOKEN);
